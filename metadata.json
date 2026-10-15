@@ -1,0 +1,6 @@
+{
+  "name": "Second Serve — Food Rescue Platform",
+  "description": "Student-led food rescue platform by Bina Bangsa School Bandung connecting restaurants with surplus food to NGOs and individuals to eliminate waste.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

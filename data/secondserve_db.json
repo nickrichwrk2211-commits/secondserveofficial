@@ -1,0 +1,161 @@
+{
+  "users": [
+    {
+      "id": "usr_admin",
+      "email": "admin@secondserve.org",
+      "name": "Nicholas Richard Lidrapraja",
+      "role": "admin",
+      "status": "active",
+      "verificationStatus": "verified",
+      "organizationName": "Second Serve HQ (Bina Bangsa School Bandung)",
+      "contactPerson": "Nicholas Richard Lidrapraja",
+      "phone": "+62 22 201 1888",
+      "passwordHash": "AdminPassword2026!",
+      "createdAt": "2026-10-15T01:39:19.392Z",
+      "updatedAt": "2026-10-15T01:39:19.392Z"
+    },
+    {
+      "id": "usr_rest_dago",
+      "email": "dago.bakery@secondserve.org",
+      "name": "Hendra Prasetya",
+      "role": "restaurant",
+      "status": "active",
+      "verificationStatus": "verified",
+      "organizationName": "Dago Artisan Bakery",
+      "contactPerson": "Hendra Prasetya",
+      "phone": "+62 22 250 1192",
+      "address": "Jl. Ir. H. Juanda No. 128, Dago, Bandung",
+      "passwordHash": "Password123!",
+      "createdAt": "2026-10-15T01:39:19.392Z",
+      "updatedAt": "2026-10-15T01:39:19.392Z"
+    },
+    {
+      "id": "usr_rest_braga",
+      "email": "braga.bistro@secondserve.org",
+      "name": "Clara Wijaya",
+      "role": "restaurant",
+      "status": "active",
+      "verificationStatus": "verified",
+      "organizationName": "Braga Heritage Bistro",
+      "contactPerson": "Clara Wijaya",
+      "phone": "+62 22 420 3391",
+      "address": "Jl. Braga No. 54, Sumur Bandung, Bandung",
+      "passwordHash": "Password123!",
+      "createdAt": "2026-10-15T01:39:19.392Z",
+      "updatedAt": "2026-10-15T01:39:19.392Z"
+    },
+    {
+      "id": "usr_ngo_foodbank",
+      "email": "bandung.foodbank@ngo.id",
+      "name": "Siti Nurhaliza",
+      "role": "ngo",
+      "status": "active",
+      "verificationStatus": "verified",
+      "organizationName": "Bandung Community Food Bank",
+      "contactPerson": "Siti Nurhaliza",
+      "phone": "+62 812 2190 4421",
+      "operatingArea": "Bandung Kota & Dago",
+      "address": "Jl. Cisitu Indah No. 14, Coblong, Bandung",
+      "passwordHash": "Password123!",
+      "createdAt": "2026-10-15T01:39:19.392Z",
+      "updatedAt": "2026-10-15T01:39:19.392Z"
+    },
+    {
+      "id": "usr_ngo_kasih",
+      "email": "berbagi.kasih@ngo.id",
+      "name": "Budi Hartono",
+      "role": "ngo",
+      "status": "active",
+      "verificationStatus": "pending",
+      "organizationName": "Yayasan Berbagi Kasih Bandung",
+      "contactPerson": "Budi Hartono",
+      "phone": "+62 813 9022 1134",
+      "operatingArea": "Sukajadi & Cidadap",
+      "address": "Jl. Sukajadi No. 89, Sukajadi, Bandung",
+      "passwordHash": "Password123!",
+      "createdAt": "2026-10-15T01:39:19.392Z",
+      "updatedAt": "2026-10-15T01:39:19.392Z"
+    },
+    {
+      "id": "usr_user_dewi",
+      "email": "user.dewi@gmail.com",
+      "name": "Dewi Lestari",
+      "role": "user",
+      "status": "active",
+      "verificationStatus": "verified",
+      "phone": "+62 878 2210 9945",
+      "address": "Jl. Dipati Ukur No. 42, Coblong, Bandung",
+      "passwordHash": "Password123!",
+      "createdAt": "2026-10-15T01:39:19.392Z",
+      "updatedAt": "2026-10-15T01:39:19.392Z"
+    },
+    {
+      "id": "usr_1792030622657_lbjq",
+      "email": "fauzi@bandungbistro.id",
+      "name": "Ahmad Fauzi",
+      "role": "restaurant",
+      "status": "active",
+      "verificationStatus": "pending",
+      "organizationName": "Bandung Bistro",
+      "contactPerson": "Ahmad Fauzi",
+      "address": "Jl. Dago 45, Bandung",
+      "passwordHash": "SecurePassword2026!",
+      "createdAt": "2026-10-15T02:17:02.657Z",
+      "updatedAt": "2026-10-15T02:17:02.657Z"
+    }
+  ],
+  "listings": [],
+  "menuItems": [
+    {
+      "id": "menu_01",
+      "restaurantId": "usr_rest_dago",
+      "name": "Country Sourdough Bread",
+      "description": "Wild yeast naturally leavened rustic bread loaf.",
+      "category": "Bakery & Pastries",
+      "photoUrl": "/src/assets/images/bakery_sourdough_1792027712529.jpg",
+      "allergens": [
+        "Gluten"
+      ],
+      "standardPortionUnit": "loaves"
+    },
+    {
+      "id": "menu_02",
+      "restaurantId": "usr_rest_dago",
+      "name": "Butter Croissant Pack",
+      "description": "Pure French butter flaky croissants.",
+      "category": "Bakery & Pastries",
+      "photoUrl": "/src/assets/images/bakery_sourdough_1792027712529.jpg",
+      "allergens": [
+        "Gluten",
+        "Dairy"
+      ],
+      "standardPortionUnit": "portions"
+    },
+    {
+      "id": "menu_03",
+      "restaurantId": "usr_rest_braga",
+      "name": "Roasted Harvest Grain Bowl",
+      "description": "Quinoa, seasonal vegetables, roasted seeds.",
+      "category": "Prepared Meals",
+      "photoUrl": "/src/assets/images/organic_harvest_bowls_1792027712833.jpg",
+      "allergens": [
+        "Sesame"
+      ],
+      "standardPortionUnit": "meal boxes"
+    }
+  ],
+  "requests": [],
+  "notifications": [
+    {
+      "id": "notif_1792030622657_5mtz",
+      "userId": "usr_admin",
+      "title": "New RESTAURANT Registration Pending Verification",
+      "message": "Bandung Bistro has registered and requires identity verification.",
+      "type": "verification_updated",
+      "relatedId": "usr_1792030622657_lbjq",
+      "isRead": false,
+      "createdAt": "2026-10-15T02:17:02.657Z"
+    }
+  ],
+  "auditLogs": []
+}
